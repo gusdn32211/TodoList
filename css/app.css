@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Cantarell);
+body {
+  font-family: 'Cantarell', Lucida Grande, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+h2 {
+  background: #346;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 0 0 2px 2px;
+}
+
+.filter {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 #5aa65f;
+  background: #6bc36f;
+  padding: 10px;
+  color: #fff;
+}
+
+.filter-list {
+  margin: 10px 0 0 0;
+  color: #fff;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0 0 20px 0;
+  line-height: 2.0;
+}
+
+input[type=text] {
+  border: 1px solid #ccc;
+  padding: 7px 5px;
+  width: 150px;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  border: 1px solid #ccc;
+  margin-left: 15px;
+  padding: 5px 15px;
+  font-size: 1em;
+}
+
+button[type=delete] {
+  float: right;
+  border: none;
+  border-radius: 3px;
+  background: #6bc36f;
+  padding: 4px;
+  display: block;
+  color: #fff;
+}
+
+.todo {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 0 15px 15px;
+  width: 280px;
+  margin: 5em auto;
+  border: 1px solid #ddd;
+}
